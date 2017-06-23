@@ -6,10 +6,11 @@ package impalaservice
 import (
 	"bytes"
 	"fmt"
+
 	"git.apache.org/thrift.git/lib/go/thrift"
-	"github.com/koblas/impalathing/services/beeswax"
-	"github.com/koblas/impalathing/services/cli_service"
-	"github.com/koblas/impalathing/services/status"
+	"github.com/FelipeUmpierre/impalathing/services/beeswax"
+	"github.com/FelipeUmpierre/impalathing/services/cli_service"
+	"github.com/FelipeUmpierre/impalathing/services/status"
 )
 
 // (needed to ensure safety because of naive import list construction.)

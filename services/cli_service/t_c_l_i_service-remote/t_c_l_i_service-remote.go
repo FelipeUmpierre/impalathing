@@ -6,14 +6,15 @@ package main
 import (
 	"flag"
 	"fmt"
-	"git.apache.org/thrift.git/lib/go/thrift"
-	"github.com/koblas/impalathing/services/cli_service"
 	"math"
 	"net"
 	"net/url"
 	"os"
 	"strconv"
 	"strings"
+
+	"git.apache.org/thrift.git/lib/go/thrift"
+	"github.com/FelipeUmpierre/impalathing/services/cli_service"
 )
 
 func Usage() {

@@ -6,8 +6,9 @@ package beeswax
 import (
 	"bytes"
 	"fmt"
+
 	"git.apache.org/thrift.git/lib/go/thrift"
-	"github.com/koblas/impalathing/services/hive_metastore"
+	"github.com/FelipeUmpierre/impalathing/services/hive_metastore"
 )
 
 // (needed to ensure safety because of naive import list construction.)

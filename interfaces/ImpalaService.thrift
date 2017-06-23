@@ -128,7 +128,7 @@ service ImpalaService extends beeswax.BeeswaxService {
       throws(1:beeswax.BeeswaxException error);
         
   // Invalidates all catalog metadata, forcing a reload
-  // TODO(koblas) -- commented out since golang dies --
+  // TODO(FelipeUmpierre) -- commented out since golang dies --
   //    Status.TStatus ResetCatalog();
   
   // Closes the query handle and return the result summary of the insert.

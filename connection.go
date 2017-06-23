@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"git.apache.org/thrift.git/lib/go/thrift"
-	"github.com/koblas/impalathing/services/beeswax"
-	impala "github.com/koblas/impalathing/services/impalaservice"
+	"github.com/FelipeUmpierre/impalathing/services/beeswax"
+	impala "github.com/FelipeUmpierre/impalathing/services/impalaservice"
 )
 
 type Options struct {
